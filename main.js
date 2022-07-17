@@ -80,5 +80,8 @@ document.getElementById('timHinhTamGiac').onclick = function () {
     } else if (canh1 == canh2 && canh2 == canh3) {
         var timTinhTamGiac = "Đây là tam giác đều"
         document.getElementById('dapAnTamGiac').innerHTML = timTinhTamGiac;
+    } else {
+        var timTinhTamGiac = "Bạn nhập cạnh của 1 loại tam giác khác !"
+        document.getElementById('dapAnTamGiac').innerHTML = timTinhTamGiac;
     }
 }
